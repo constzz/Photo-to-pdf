@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Photo to PDF</string>
+    <string name="premissions_not_granted_by_user">Вы не предоставили доступ.</string>
+    <string name="no_internet">Нет Интернета</string>
+    <string name="check_your_internet_connection_and_try_again">Проверьте своё интернет-подключение</string>
+    <string name="please_turn_on">Пожалуйста, включите</string>
+    <string name="mobile_data">Моб. Интрнет</string>
+    <string name="you_turned_on_airplane_mode">Вы ключили режим полета</string>
+    <string name="please_turn_off">Пожалуйста, выключите</string>
+    <string name="airplane_mode">Режим полета</string>
+    <string name="flashlight_not_available_on_device">Вспышка не доступна на Вашем устройстве</string>
+    <string name="you_succesfully_converted_photos_to_pdf">Вы успешно конвертировали фотографии в PDF</string>
+    <string name="click_camera_to_start_capturing">Нажмите на камеру, чтобы начать :)</string>
+    <string name="your_photos_are_converting_to_pdf">Ваши фотографии конвертируются в PDF...</string>
+    <string name="open">ОТКРЫТЬ</string>
+</resources>

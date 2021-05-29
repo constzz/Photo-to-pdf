@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/top_bar_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:weightSum="3"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/go_to_output_folder_btn"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_weight="1"
+            android:src="@drawable/open_folder_ic" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/cached_photos_counter_textview"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="5"
+            android:fontFamily="sans-serif-medium"/>
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/switch_flashlight_mode_btn"
+            android:layout_width="0dp"
+            android:layout_height="74dp"
+            android:layout_weight="1"
+            android:paddingStart="6dp"
+            android:paddingBottom="18dp"
+            app:lottie_rawRes="@raw/light_ic_animated"
+            tools:ignore="RtlSymmetry" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/camera_preview_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="-1dp">
+
+        <androidx.camera.view.PreviewView
+            android:id="@+id/preview"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom_bar_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:weightSum="3"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/new_photos_record_btn"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            app:lottie_rawRes="@raw/refresh_icon_animated" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/camera_capture_button"
+            android:layout_width="0dp"
+            android:layout_height="140dp"
+            android:layout_weight="1"
+            app:lottie_rawRes="@raw/camera_icon_animated" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/create_pdf_btn"
+            android:layout_width="0dp"
+            android:layout_height="52dp"
+            android:layout_weight="1"
+            app:lottie_rawRes="@raw/pdf_icon_animated"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

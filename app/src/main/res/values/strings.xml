@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name" translatable="false">Photo to PDF</string>
+    <string name="premissions_not_granted_by_user">Permissions not granted by the user.</string>
+    <string name="no_internet">No Internet</string>
+    <string name="check_your_internet_connection_and_try_again">Check your Internet connection and try again.</string>
+    <string name="please_turn_on">Please turn on</string>
+    <string name="mobile_data">Mobile data</string>
+    <string name="you_turned_on_airplane_mode">You have turned on the airplane mode.</string>
+    <string name="please_turn_off">Please turn off</string>
+    <string name="airplane_mode">Airplane mode</string>
+    <string name="flashlight_not_available_on_device">Flashlight is not available on this device</string>
+    <string name="you_succesfully_converted_photos_to_pdf">You have successfully converted photos to PDF</string>
+    <string name="click_camera_to_start_capturing">Click the camera to start capturing :)</string>
+    <string name="your_photos_are_converting_to_pdf">Your photos are converting to PDF...</string>
+    <string name="open">OPEN</string>
+
+</resources>
